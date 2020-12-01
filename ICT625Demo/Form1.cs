@@ -17,6 +17,15 @@ namespace ICT625Demo
             InitializeComponent();
         }
 
+        public int sub(int a, int b)
+        {
+            return a - b;
+        }
+        public string name(string fn, string ln)
+        {
+            return string.Concat(fn, ln);
+        }
+
         public double mul()
         {
             double a = 3.00;
