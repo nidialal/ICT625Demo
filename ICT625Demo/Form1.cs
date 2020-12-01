@@ -16,5 +16,10 @@ namespace ICT625Demo
         {
             InitializeComponent();
         }
+
+        public string name(string fn, string ln)
+        {
+            return string.Concat(fn, ln);
+        }
     }
 }
