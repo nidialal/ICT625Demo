@@ -16,5 +16,15 @@ namespace ICT625Demo
         {
             InitializeComponent();
         }
+
+        public double mul()
+        {
+            double a = 3.00;
+            double b = 6.3;
+
+            double c = a * b;
+
+            return c;
+        }
     }
 }
