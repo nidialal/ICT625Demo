@@ -16,5 +16,14 @@ namespace ICT625Demo
         {
             InitializeComponent();
         }
+
+        public int Min (int a, int b)
+        {
+        
+           int c =  a*a + b * b;
+
+            return c;
+
+        }
     }
 }
