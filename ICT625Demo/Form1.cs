@@ -39,7 +39,21 @@ namespace ICT625Demo
             return a + b;
         }
 
+        public int Min(int a, int b) 
+        {
+            int c = a ^ 2 + b ^ 2;
+            return c;
+
+        }
+
+
+
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
 
         }
